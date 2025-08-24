@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, MapPin, Download, CheckCircle } from "lucide-react";
+import { Calendar, MapPin, Download } from "lucide-react";
 
 const AboutSection = () => {
   const education = [
@@ -24,16 +24,6 @@ const AboutSection = () => {
     }
   ];
 
-  const achievements = [
-    {
-      title: "5k+ Complete Projects",
-      description: "Successfully delivered multiple software solutions and web applications"
-    },
-    {
-      title: "8+ Years of Experience",
-      description: "Strong foundation in programming and problem-solving across various technologies"
-    }
-  ];
 
   return (
     <section id="about" className="py-20 bg-secondary/50">
@@ -57,21 +47,6 @@ const AboutSection = () => {
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 With expertise in C++, Python, and full-stack web technologies, I focus on creating innovative solutions that make a real impact. My experience includes machine learning projects and web development.
               </p>
-            </div>
-
-            {/* Achievements */}
-            <div className="space-y-6">
-              {achievements.map((achievement, index) => (
-                <div key={index} className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <CheckCircle className="w-4 h-4 text-accent" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-2">{achievement.title}</h4>
-                    <p className="text-muted-foreground">{achievement.description}</p>
-                  </div>
-                </div>
-              ))}
             </div>
 
             <Button 
