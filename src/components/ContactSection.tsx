@@ -20,19 +20,13 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "harsh.sahay@example.com",
-      link: "mailto:harsh.sahay@example.com"
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+91 1234567890",
-      link: "tel:+911234567890"
+      value: "harshmohansahay@gmail.com",
+      link: "mailto:harshmohansahay@gmail.com"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Bijnor, Uttar Pradesh, India",
+      value: "NITK Surathkal",
       link: "#"
     }
   ];
@@ -41,22 +35,22 @@ const ContactSection = () => {
     {
       icon: Github,
       title: "GitHub",
-      username: "@harshsahay",
-      url: "https://github.com",
+      username: "@HarshMohanSahay",
+      url: "https://github.com/HarshMohanSahay",
       color: "hover:text-white hover:bg-gray-800"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
       username: "Harsh Mohan Sahay",
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/harsh-mohan-sahay-06989a201",
       color: "hover:text-white hover:bg-blue-600"
     },
     {
       icon: Code,
       title: "LeetCode",
-      username: "@harshcoder",
-      url: "https://leetcode.com",
+      username: "@mohan_sahay_99",
+      url: "https://leetcode.com/u/mohan_sahay_99/",
       color: "hover:text-white hover:bg-orange-500"
     }
   ];

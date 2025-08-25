@@ -10,16 +10,6 @@ const SkillsSection = () => {
       skills: [
         { name: "C++", level: 90, color: "bg-blue-500" },
         { name: "Python", level: 85, color: "bg-green-500" },
-        { name: "JavaScript", level: 80, color: "bg-yellow-500" },
-      ]
-    },
-    {
-      title: "Web Technologies",
-      icon: Globe, 
-      skills: [
-        { name: "HTML/CSS", level: 90, color: "bg-orange-500" },
-        { name: "React", level: 75, color: "bg-blue-400" },
-        { name: "Node.js", level: 70, color: "bg-green-600" },
       ]
     },
     {
@@ -83,7 +73,7 @@ const SkillsSection = () => {
         </div>
 
         {/* Skill Progress Bars */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {skillCategories.map((category, categoryIndex) => (
             <Card key={categoryIndex} className="bg-card/50 border-border/50 hover:bg-card transition-all duration-300">
               <CardContent className="p-8">

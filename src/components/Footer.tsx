@@ -6,22 +6,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com",
+      href: "https://github.com/HarshMohanSahay",
       label: "GitHub"
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/harsh-mohan-sahay-06989a201",
       label: "LinkedIn"
     },
     {
       icon: Code,
-      href: "https://leetcode.com",
+      href: "https://leetcode.com/u/mohan_sahay_99/",
       label: "LeetCode"
     },
     {
       icon: Mail,
-      href: "mailto:harsh.sahay@example.com",
+      href: "mailto:harshmohansahay@gmail.com",
       label: "Email"
     }
   ];

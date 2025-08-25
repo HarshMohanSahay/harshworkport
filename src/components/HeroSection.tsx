@@ -66,7 +66,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/HarshMohanSahay" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-card border border-border rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110 hover:glow-primary"
@@ -74,7 +74,7 @@ const HeroSection = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/harsh-mohan-sahay-06989a201" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-card border border-border rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110 hover:glow-primary"
@@ -82,7 +82,7 @@ const HeroSection = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:harsh@example.com"
+              href="mailto:harshmohansahay@gmail.com"
               className="w-12 h-12 bg-card border border-border rounded-xl flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110 hover:glow-accent"
             >
               <Mail className="w-5 h-5" />
