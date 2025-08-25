@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import harshProfile from "@/assets/harsh-profile-new.jpg";
+import harshProfile from "@/assets/harsh-profile-updated.jpg";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 const HeroSection = () => {
